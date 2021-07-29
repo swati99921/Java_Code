@@ -1,5 +1,5 @@
 package com.company;
-//import static java.lang.System;
+import static java.lang.System.exit;
 public class StackLinkList {
 
     public class Node {
@@ -57,12 +57,12 @@ public class StackLinkList {
         obj.push(22);
         obj.push(65);
         obj.display();
-        System.out.printf("\nTop element is %d\n" );
+        System.out.printf("\nTop element is " );
         obj.pop();
         obj.pop();
         obj.pop();
         obj.display();
-        System.out.printf("\nTop element is %d\n" );
+        System.out.printf("\nTop element is " );
 
     }
 }
